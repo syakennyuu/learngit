@@ -7,6 +7,7 @@ typedef struct node{
 }NODE,* LinkList;
 
 LinkList create_list(int n){
+/*用尾插法创建一结点数为n的单循环链表，返回值为数据域为1的结点指针*/
 	LinkList head,p;
 	int i;
 	head=(NODE *)malloc(sizeof(NODE));
