@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define N 13
+#define N 13 /*参加游戏的人数*/
 typedef struct node{
 			int code;
 			struct node * next;
