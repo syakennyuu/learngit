@@ -10,7 +10,7 @@ LinkList create_list(int n){
 /*用尾插法创建一结点数为n的单循环链表，返回值为数据域为1的结点指针*/
 	LinkList head,p;
 	int i;
-	head=(NODE *)malloc(sizeof(NODE));
+	head=(NODE *)malloc(sizeof(NODE));/*创建循环链表的第一个结点*/
 	if(!head){
 		printf("memory allocation error! \n");
 		exit(1);
