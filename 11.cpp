@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #define N 13 /*参加游戏的人数*/
 typedef struct node{
-			int code;
+			int code;	/*游戏者的编号*/
 			struct node * next;
 }NODE,* LinkList;
 
